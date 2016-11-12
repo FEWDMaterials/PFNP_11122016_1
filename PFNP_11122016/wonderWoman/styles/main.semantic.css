@@ -1,0 +1,11 @@
+.test {
+	/*border: 1px solid black;*/
+}
+
+#my-theme {
+	margin: 0 10%;
+}
+
+#my-theme .main {
+	margin-top: 30px;
+}

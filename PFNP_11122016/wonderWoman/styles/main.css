@@ -1,0 +1,54 @@
+#superheroname { /* Infinity */
+	color: green;
+}
+
+#superheroname.subtitle { /* Infinity + 10 */ 
+	color: pink;
+}
+
+img { /* tagName selector: 1; */
+	max-width: 600px;
+	width: 100%;
+}
+
+/*h1 span {*/
+h1 .subtitle { /* 11 */
+	color: red;
+}
+
+.sub-header { /* 10 */
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: Helvetica;
+}
+
+.super-important {
+	color: red;
+}
+
+.sub-header.super-important { /* 20 */
+	text-decoration: underline;	
+}
+
+.foobar {
+	color: white;
+}
+
+.box {
+	min-height: 300px;
+	min-width: 600px;
+	background-image: url(../assets/wonder_woman_profile.jpg);
+}
+
+.box-title {
+	font-size: 30px;
+}
+
+/*
+
+	here is how we write a css block
+	SELECTOR {
+		cssRule: cssValue;
+	}
+
+*/
