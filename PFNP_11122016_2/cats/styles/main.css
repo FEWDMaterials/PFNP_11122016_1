@@ -1,0 +1,12 @@
+#my-theme {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.slideshow-img {
+	width: 100%;
+}
+
+#my-theme .slick-next {
+	display: none;
+}
